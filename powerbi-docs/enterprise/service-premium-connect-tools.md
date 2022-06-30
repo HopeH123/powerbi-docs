@@ -163,6 +163,9 @@ In addition to the XMLA Endpoint property being enabled read-write by the capaci
 
 **Allow XMLA endpoints and Analyze in Excel with on-premises datasets** is an integration setting.
 
+> [!NOTE]
+> on-premise datasets here only refers external-hosted models (Datasets in the Power BI service - Power BI | Microsoft Docs). It applies to both SQL Server Analysis Services (SSAS) and Azure Analysis Services (AAS), See this document also Start in Excel to connect to Power BI datasets - Power BI | Microsoft Docs.
+
 :::image type="content" source="media/service-premium-connect-tools/allow-xmla-endpoints.png" alt-text="Integration setting allow XMLA endpoints.":::
 
 The following table describes the implications of the setting **Export data** for XMLA and Analyze in Excel (AIXL):
